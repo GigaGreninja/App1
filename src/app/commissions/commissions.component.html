@@ -1,0 +1,59 @@
+<p>
+  Please use the form below for commissions:
+</p>
+<mat-vertical-stepper [linear]="true" #stepper>
+  <mat-step [stepControl]="firstFormGroup">
+    <form [formGroup]="firstFormGroup">
+      <ng-template matStepLabel>What type of art should I draw (No humans please!!)</ng-template>
+      <mat-form-field>
+        <mat-label>Art type</mat-label>
+        <input matInput placeholder="Ex. Mythical animals" formControlName="firstCtrl" required>
+      </mat-form-field>
+      <div>
+        <button mat-button matStepperNext>Next</button>
+      </div>
+    </form>
+  </mat-step>
+  <mat-step [stepControl]="secondFormGroup">
+    <form [formGroup]="secondFormGroup">
+      <ng-template matStepLabel>Fill out your email address</ng-template>
+      <mat-form-field>
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="secondCtrl" placeholder="Ex. someone@something.com"required>
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+    </form>
+  </mat-step>
+  <mat-step [stepControl]="secondFormGroup">
+    <form [formGroup]="secondFormGroup">
+      <ng-template matStepLabel>If you want a message on your commission, put it here.</ng-template>
+      <mat-form-field>
+        <mat-label>Message</mat-label>
+        <input matInput formControlName="secondCtrl" placeholder="Ex. Rule the world!"required>
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+    </form>
+  </mat-step>
+  <mat-step>
+    <ng-template matStepLabel>Done</ng-template>
+    <p>Your commissions request has been sent.</p>
+    <div>
+      <button mat-button matStepperPrevious>Back</button>
+      <button mat-button (click)="stepper.reset()">Reset</button>
+    </div>
+  </mat-step>
+</mat-vertical-stepper>
+<p>I will take commissions based on order so, first come, first served!</p>
+<br>
+<br>
+<p>DISCLAIMER: for some commissions there will be a slight delay depending on how much time it takes.</p>
+<p>Thank you!</p>
+<script>function myFunction() {
+  alert("Hello! I am an alert box!");
+}</script>
