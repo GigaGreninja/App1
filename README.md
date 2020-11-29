@@ -26,26 +26,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 
-## Development server
+## This is my website that is dedicated to art, but not just any art. MY art!
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This site was created so that I could store pictures of my art, take commission request and even upload music.
 
-## Code scaffolding
+## What is the site's components?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+I'm going to be straightfoward here, the site was created with the big three of web dev: HTML, CSS and Javascript (note: java and javascript are NOT the same thing. It happens a lot but still, NOT the same thing). I also used a bit of SCSS (aka Sass CSS) and the piece de resistance: Angular.
 
-## Build
+## Why dark theme?
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Light theme scares me, it's so bright and just looking at a bright screen for hours is just torture. That's why my site is dark theme and it is high contrast. Even better.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## That's all Fleet!!
