@@ -30,14 +30,14 @@ This is a website that was created solely for art... Introducing the MB art webs
 
 This site was created so that I could store pictures of my art, take commission request and even upload music.
 
-## What are the site's components?
+### What are the site's components?
 
 I'm going to be straightfoward here, the site was created with the big three of web dev: HTML, CSS and Javascript (note: java and javascript are NOT the same thing.). I also used a bit of SCSS (aka Sass CSS) and the piece de resistance: Angular.
-# More on Angular:
+### More on Angular:
 
 Angular is a web application framework that works with Javascript and Typescript. Typescript isn't accepted by browsers and Javascript is so there is a conversion process taking place (however I don't know much about that yet). Typescript is just Javascript with a few changes and the two work hand-in-hand to help Angular do its job. You can visit the website at: http://angular.io/
 
-## Now something important: Dark theme(?)
+### Now something important: Dark theme(?)
 
 Light theme scares me, it's so bright and just looking at a bright screen for hours is just torture. That's why my site is dark theme and it is high contrast. Even better. >:). I am sorry if Dark theme annoy you but adjusting the theme is one way of using CSS, try that the next time you make a website.
 
