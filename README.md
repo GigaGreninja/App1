@@ -39,3 +39,5 @@ I'm going to be straightfoward here, the site was created with the big three of 
 Light theme scares me, it's so bright and just looking at a bright screen for hours is just torture. That's why my site is dark theme and it is high contrast. Even better. >:)
 
 ## That's all Fleet!!
+
+Lol. Have a nice day.
