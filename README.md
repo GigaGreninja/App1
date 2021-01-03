@@ -30,12 +30,18 @@ This is a website that was created solely for art... Introducing the MB art webs
 
 This site was created so that I could store pictures of my art, take commission request and even upload music.
 
-### What are the site's components?
+## Some useful knowledge about my website:
 
-I'm going to be straightfoward here, the site was created with the big three of web dev: HTML, CSS and Javascript (note: java and javascript are NOT the same thing.). I also used a bit of SCSS (aka Sass CSS) and the piece de resistance: Angular.
+### Site components.
+
+I'm going to be straightfoward here, the site was created with the big three of web dev: HTML, CSS and Javascript (note: java and javascript are NOT the same thing). I also used a bit of SCSS (aka Sass CSS) and the piece de resistance: Angular.
 ### More on Angular:
 
 Angular is a web application framework that works with Javascript and Typescript. Typescript isn't accepted by browsers and Javascript is so there is a conversion process taking place (however I don't know much about that yet). Typescript is just Javascript with a few changes and the two work hand-in-hand to help Angular do its job. You can visit the website at: http://angular.io/
+
+### More on SCSS:
+
+I didn't use CSS, I used Sass CSS, a version of CSS with a few differences. The website link is right here if you want more information on it:https://sass-lang.com/
 
 ### Now something important: Dark theme(?)
 
